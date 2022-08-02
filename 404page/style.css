@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e0e0e0;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-family: 'Neutral Face';
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #294757;
+}
+
+.page-container{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 100px;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    width: 50%;
+}
+
+.page-not-found span {
+    font-size: 14rem;
+    line-height: 89%;
+    color: #1f3d4d;
+    font-weight: bold;
+    overflow: hidden;
+    font-family: 'Bigilla';
+}
+
+.span404 {
+    display: inline-block;
+    width: max-content;
+    font-size: 19rem;
+    text-align: center;
+    padding: 0.5rem 4.8rem;
+    border-radius: 300px;
+    border: 2px solid #b68c60;
+}
+
+.home-btn {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+
+img {
+    position: absolute;
+    max-width: 170px;
+    left: 2rem;
+    animation: spinning 3s infinite linear;
+    margin-bottom: 50px;
+}
+
+@keyframes spinning {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.home-btn button {
+    padding: 9rem 4em;
+    font-size: 1.3rem;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    font-family: 'Poppins';
+    font-weight: bold;
+    border: 5px solid #1f3d4d;
+    background-color: #1f3d4d;
+    cursor: pointer;
+    color: #ffffff;
+    transition: transform .6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.home-btn button:hover{
+    transform: scale(1.2);
+}
+
