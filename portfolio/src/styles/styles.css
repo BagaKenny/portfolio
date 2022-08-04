@@ -1,0 +1,11 @@
+@import './base/settings.css';
+@import './base/base.css';
+@import  './base/boska.css';
+@import '/src/components/About/about.css';
+@import '/src/components/Extras/extras.css';
+@import '/src/components/Home/home.css';
+@import '/src/components/Loader/loader.css';
+@import '/src/components/Header/header.css';
+@import '/src/components/Footer/footer.css';
+@import '/src/components/Nav/nav.css';
+@import '/src/components/Project/projects.css';

@@ -1,22 +1,37 @@
-import React from 'react'
+import React, { useRef, useEffect } from 'react';
+import { 
+  BrowserRouter as Router,
+  Route, 
+  Routes } from 'react-router-dom';
+  import {gsap, Power3} from 'gsap';
 
+// Pages
+import Home from './pages/Home';
+import AboutPage from './pages/AboutPage';
+import ExtraPage from './pages/ExtraPage'
 
 // Component
+
 import Header from './components/Header/Header';
-import Nav from './components/Nav/Nav';
-import Footer from './components/Footer/Footer';
-import Main from './components/Home/Main';
+
+const route = [
+  {path: '/', name: 'Home', Component: Home},
+  {path: '/AboutPage', name: 'About', Component: AboutPage},
+  {path: '/ExtraPage', name: 'Extra', Component: ExtraPage},
+]
 
 function App() {
+
   return (
-    <>
+    <Router>
     <Header />
-    <Nav />
-    <Main />
-    <Footer />
-
-
-    </>
+    <Routes>
+      {route.map(({path, name, Component, element}) => (
+          <Route key={name} path={path} exact element={ <Component />}>
+          </Route>
+      ))}
+    </Routes>
+    </Router>
   )
 }
 

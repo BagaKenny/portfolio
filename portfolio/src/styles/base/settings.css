@@ -1,0 +1,30 @@
+:root {
+/* Color */
+--yellow: #DCD7AC;
+--black: #1E1E1E;
+--accent: #5F581B;
+
+/* Font space */
+--s-size: 1.2rem;
+--m-size: 1.6rem;
+--l-size: 3.2rem;
+--xl-size: 4.8rem;
+
+/* font weight */
+
+/* Font size */
+--f-size-s: 16px;
+--f-size-sm: 20px;
+--f-size-m: 36px;
+--f-size-m-res: 24px;
+--f-size-l: 55px;
+--f-size-xl-res: 35px;
+--f-size-xl: 128px;
+--f-size-xl-res: 64px;
+
+/* Line height */
+--line-text: 129.2;
+
+}
+
+
