@@ -4,6 +4,10 @@ import { gsap, Power2 } from "gsap";
 // Style
 import "./about.css";
 
+// Component
+
+import Footer from "../Footer/Footer";
+
 const About = () => {
   let tl = new gsap.timeline();
   let card = new gsap.timeline({ paused: true, reversed: true });

@@ -7,10 +7,10 @@ import Main from '../components/Home/Main';
 
 const Home = () => {
   return (
-    <>
+    <div>
     <Main />
     <Footer />
-    </>
+    </div>
   )
 }
 

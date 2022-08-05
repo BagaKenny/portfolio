@@ -30,3 +30,31 @@
     text-decoration: line-through;
     color: var(--black);
 }
+
+/* Media Queries */
+
+@media (max-width: 480px) {
+    body {
+        /* background-color: red; */
+    }
+    .footer-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        bottom: 0;
+        width: 80%;
+        height: fit-content;
+        margin: 10rem 0;
+    }
+
+    .media-link {
+        flex-wrap: wrap;
+        justify-content: left;
+        
+    }
+
+    .media-link li {
+        padding: var(--m-size);
+    }
+}
+  
