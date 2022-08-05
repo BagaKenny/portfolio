@@ -33,15 +33,19 @@
     font-size: 15px;
   }
   
-  .work-item span img {
+  .work-item span img,
+  .work-item span video
+  {
     max-height: 80px;
     margin: 0px 2px;
-    margin-left: -120px;
+    margin-left: -140px;
     transform-origin: left;
     object-fit: contain;
     transition: all 0.45s cubic-bezier(0.39, 0.575, 0.565, 1);
   }
-  .work-item:hover span img {
+  .work-item:hover span img,
+  .work-item:hover span video
+  {
     margin-left: 2px;
   }
 
@@ -52,22 +56,28 @@
     transform-origin: left top;
   }
   
-  .item-1,
+  .item-1{
+    font-family: Boska-Bold;
+    font-size: 60px;
+  }
+ 
   .item-4,
   .item-7{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    font-size: 50px;
+    font-size: var(--f-size-m);
     text-transform: uppercase;
   }
-  .item-2 {
+
+  .item-2,
+  .item-6 {
     font-family: 'Boska-Light';
     font-weight: lighter;
     text-transform: uppercase;
     font-size: 60px;
   }
   .item-3,
-  .item-6{
+  .item-8{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: lighter;
     font-size: var(--f-size-m);
@@ -81,7 +91,7 @@
     font-weight: bold;
   }
   .item-1{
-    margin-left: 5%;
+    margin-left: 15%;
   }
   .item-2,
   .item-7 {
@@ -90,15 +100,17 @@
   .item-3 {
     margin-left: 5%;
   }
-  .item-4,
   .item-6 {
     margin-left: 40%;
   }
+  .item-4{
+    margin-left: 50%;
+  }
   .item-5 {
-    margin-left: 15%;
+    margin-left: 5%;
   }
   .item-8 {
-    margin-left: 20%;
+    margin-left: 50%;
   }
 
   @media (max-width: 480px) {
@@ -181,6 +193,6 @@
 /* Media Query for Large screens */
 @media (min-width: 1281px) {
     body {
-        background-color: white;
+        background-color:   #ffffff;
     }
 }

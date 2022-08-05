@@ -2,14 +2,12 @@ import React from 'react';
 
 
 // Component
-import Footer from '../components/Footer/Footer';
-import Main from '../components/Home/Main';
+import Section from '../components/Home/Section';
 
 const Home = () => {
   return (
     <div>
-    <Main />
-    <Footer />
+    <Section />
     </div>
   )
 }

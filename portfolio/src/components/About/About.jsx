@@ -115,7 +115,7 @@ const About = () => {
             design and carry out professional projects. <br />
             My goal is to participate in innovative projects and facilitate the
             lives of different human beings through design and technology..
-            <hr />
+            
             <span className="full-page-layout">
               My reason for being as a Dev and Designer, constantly pushes me to
               curiosity, and to meet people from different backgrounds. During

@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Component
-import About from '../components/About/About'
+import About from '../components/About/About';
 
 const AboutPage = () => {
   return (
