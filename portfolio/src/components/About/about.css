@@ -1,3 +1,96 @@
 .about {
-    background-color: aqua;
+    background-color: var(--black);
+    color: var(--yellow);
+}
+
+.card-animation {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    font-family: 'Boska-Black';
+}
+
+.card-animation .img {
+    width: 450px;
+    height: 600px;
+    background: url(/src/components/About/portrait.webp) center center no-repeat;
+    background-size: cover;
+}
+
+.card-animation .card-header {
+    font-size: var(--f-size-l);
+    margin: 5px 0;
+    color: var(--black);
+}
+
+.card-animation .card-text-below {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-animation .card-side {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left: 60rem;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--accent);
+}
+
+.card-side h2 {
+    text-transform: uppercase;
+    font-size: var(--f-size-l);
+    font-weight: 400;
+}
+
+.card-side .card-on {
+    width: 12rem;
+    cursor: pointer;
+    margin: 20px 0;
+    position: relative;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--black);
+    color: var(--accent);
+    font-size: var(--f-size-l);
+    font-weight: 900;
+    border-radius: 100%;
+    background: transparent;
+}
+
+.card-on .card-plus {
+    position: absolute;
+}
+
+.card-animation .card-side-text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-left: 32rem;
+    color: var(--black);
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--f-size-sm);
+    font-weight: lighter;
+    line-height: var(--l-size);
+}
+
+.card-paragraph {
+    width: 60%;
+    
+}
+
+.full-page-layout {
+    position: absolute;
+    padding-bottom: 8rem;
+    width: 60vw;
+    left: -65vw;
+    display: block;
 }

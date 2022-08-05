@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import { 
-    Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import {gsap, Power3} from 'gsap';
 import './header.css';
 
@@ -45,7 +44,7 @@ const Header = () => {
         <div className='menu-item' ref = {el => menu_item1 = el}>
           <Link to='/AboutPage' className='link-style'>ABOUT</Link>      
         </div>
-        <div className='menu-item' ref = {el => menu_item2 = el}><Link to='/ExtraPage' className='link-style'>EXTRAS</Link> </div>
+        <Link to='/ExtraPage' className='link-style'><div className='menu-item' ref = {el => menu_item2 = el}>EXTRAS </div></Link>
         </div>
     </div>
   )

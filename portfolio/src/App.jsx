@@ -2,7 +2,10 @@ import React, { useRef, useEffect } from 'react';
 import { 
   BrowserRouter as Router,
   Route, 
-  Routes } from 'react-router-dom';
+  Routes,
+  Link
+} from 'react-router-dom';
+
   import {gsap, Power3} from 'gsap';
 
 // Pages
@@ -26,8 +29,8 @@ function App() {
     <Router>
     <Header />
     <Routes>
-      {route.map(({path, name, Component, element}) => (
-          <Route key={name} path={path} exact element={ <Component />}>
+      {route.map(({path, name, Component}) => (
+          <Route key={path} path={path} element={ <Component />}>
           </Route>
       ))}
     </Routes>

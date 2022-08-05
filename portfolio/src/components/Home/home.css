@@ -47,7 +47,7 @@ h2 span {
 }
 
 /* Ligne hover */
-span:before, span:after {
+.index span:before, span:after {
     content: '';
     position: absolute;
     width: 0%;
