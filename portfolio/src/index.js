@@ -8,6 +8,7 @@ import './styles/styles.css';
 // Components
 import App from './App'
 import Header from './components/Header/Header';
+import Main from './components/Home/Main';
 
 
 const container = document.getElementById('root');

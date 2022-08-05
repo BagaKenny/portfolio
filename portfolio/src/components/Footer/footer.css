@@ -1,0 +1,32 @@
+.footer-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 10rem;
+    width: 45%;
+    height: fit-content;
+}
+
+.media-link {
+    display: flex;
+    justify-content: left;
+    font-size: var(--f-size-s);
+}
+
+.media-link li {
+    margin-left: var(--l-size);
+}
+
+.media-link-style a {
+    color: var(--black);
+}
+
+.media-link-style {
+    display: inline-block;
+    color: var(--black);
+}
+
+.media-link-style a:hover {
+    text-decoration: line-through;
+    color: var(--black);
+}

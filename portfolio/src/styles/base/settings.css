@@ -1,6 +1,6 @@
 :root {
 /* Color */
---yellow: #DCD7AC;
+--yellow: #fbf9e8;
 --black: #1E1E1E;
 --accent: #5F581B;
 
@@ -10,8 +10,7 @@
 --l-size: 3.2rem;
 --xl-size: 4.8rem;
 
-/* font weight */
-
+/* font */
 /* Font size */
 --f-size-s: 16px;
 --f-size-sm: 20px;
