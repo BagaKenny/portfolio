@@ -1,0 +1,18 @@
+.conception-container {
+    font-family: 'Boska-Bold';
+    color: var(--accent);
+    font-size: var(--f-size-m);
+    float: left;
+    max-width: 40vw;
+    margin-left: 3rem;
+}
+
+.conception-bg {
+    background-image: url("../../../assets/Xplore/sketch2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    height: 20vh;
+    max-width: 25vw;
+}

@@ -1,5 +1,6 @@
 import React, {useRef, useEffect} from 'react';
 import { gsap, Power2 } from "gsap";
+import { Link } from 'react-router-dom';
 import './section.css';
 import SectionHeader from '../Header/SectionHeader';
 
@@ -9,7 +10,6 @@ import Image from '../../assets/holo.gif';
 const Section = () => {
 
     let tl = new gsap.timeline();
-    let ease = Power2.easeInOut();
     let line = useRef(null);
     let work_item_h1 = useRef(null);
     let work_item_p = useRef(null);
@@ -43,18 +43,19 @@ const Section = () => {
 
   return (
     <>
-    <SectionHeader />
-    <div className="container" ref={line}>
+    <div className="home-container" ref={line}>
       <div className="work-items" ref={work_item_h1}>
         <span>
+        <Link to='/HomeMadeBySophie'>
           <div className="work-item item-1">
-            <h1>Portfolio</h1>
+            <h1>HomeMade</h1>
             <span><img src={require('../../assets/Portfolio/portfolio.webp')} alt="" /></span>
-            <h1>UX</h1>
+            <h1>By </h1>
             <span><img src={require('../../assets/Portfolio/homepage.gif')} alt="" /></span>
-            <h1>FrontEnd</h1>
+            <h1>Sophie</h1>
             <p>2022</p>
           </div>
+          </Link>
         </span>
         <div className="line" ></div>
         <span>
@@ -82,11 +83,12 @@ const Section = () => {
         </span>
         <div className="line"></div>
         <span>
-        <a href='https://bagakenny.github.io/gallery/' rel='noreferrer' target="_blank">
+        <a href='https://bagakenny.github.io/homeplanet/' rel='noreferrer' target="_blank">
           <div className="work-item item-4">
-            <h1>Gallery</h1>
-            <span><img src={require('../../assets/Gallery/gallery.gif')} alt="" /></span>
-            <h1>Front</h1>
+            <h1>Home</h1>
+            <span><img src={require('../../assets/Homeplanet/salon.gif')} alt="salon" /></span>
+            <h1>Planet</h1>
+            <span><img src={require('../../assets/Homeplanet/scroll.gif')} alt="salon" /></span>
             <p>2022</p>
           </div>
           </a>
@@ -105,14 +107,18 @@ const Section = () => {
           </a>
         </span>
         <div className="line"></div>
+        
         <span>
+        <Link to="/Xplore">
         <div className="work-item item-6">
             <h1>Xplore App</h1>
             <span><img src={require('../../assets/Xplore/Homepage.webp')} alt="" /></span>
             <h1>UI/UX</h1>
             <p>2022</p>
           </div>
+        </Link>
         </span>
+       
         <div className="line" ref={line}></div>
         <span>
         <a href='https://bagakenny.github.io/pomodoro/' rel='noreferrer' target="_blank">
@@ -130,7 +136,7 @@ const Section = () => {
         <span>
         <a href='https://bagakenny.github.io/mydashboard/' rel='noreferrer' target="_blank">
         <div className="work-item item-8" ef={work_item_h1}>
-            <h1>DashBoard</h1>
+            <h1>HomePlanet</h1>
             <span><img src={require('../../assets/DashBoard/Dash.png')} alt="" /></span>
             <h1>(FrontEnd)</h1>
             <p>2022</p>

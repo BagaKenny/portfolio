@@ -1,0 +1,54 @@
+[
+  { "id": 1,
+   "year": "2022",
+   "title": "Xplore App",
+   "presentaion":
+       "During my end of year project, we were mandated to think and create an editorial support with the theme of 'Hors-Champ' Outer Sight, How to visualize phenomena which we know exist, but which remain imperceptible until now: Black holes, Dark matter, gravitational wave, Oort cloud, Exoplanets, Planck's wall, primitive radiation? Our eyes do not give us all the information, they are limited and highly dependent on light. But what if we want to understand the activity of sounds, surprising phenomena that we cannot see but exist?This was the basis of my design thinking through this project",
+   "tech": {
+       "ux": "Sketch / InVision / Photoshop / Illustrator / InDesign",
+       "frontend": ""
+     },
+   "inspiration": "",
+   "concept": {
+       "text": "This is a guide to the basic elements that make up Xplore. What can't our eyes see? It was our GO-TO when thinking this app.",
+  
+       "hookText":"On Xplore, my main goal was to modernize the way we discovering things and sharing our passion with people who love what we love. Achieving this goal is highly dependent on the ability to communicate the brand identity with consistency, accuracy, confidence and purpose.",
+       "hookText2": "The goal was to have this well-constructed layout, with improved typography, lines and spacing",
+       "hookText3": "A big emphasis was put on the negative space knowing that it is an editorial application, the readability was a crucial part of my build"
+     }
+    },
+  
+    {
+      "id": 2,
+      "year": "2021",
+      "title": "Home Made By Sophie",
+      "presentaion": "During this School project, we were mandated  to conceptualize and create a E-commerce Site to show Home Made By Sophie’s Products. I worked alone on the design and research to pitch the vision and execution phases. Additionally, I coded the landing page in html css and with a little bit of javascript. Home Made By Sophie (HMBS) is a little shop founded in by Sophie Gartier, with the mission to bring a change to unethical and ecological problems in the beauty market. The products are  all organic, and it had to feel like what it is actually. The Real Problem here was to reassure the costumer, who is more and more losing trust because companies lack of ethics",
+  
+      "tech": [
+        {
+          "ux": "Figma / Photoshop / Illustrator / InDesign",
+          "frontend": null
+        }
+      ],
+      "inspiration": "",
+      "concept": "I worked to determine on optimizations like facilitating products comprehension, support in case of new products arriving through Newsletter, facilitating buys. All the while staying transparent and sharing that earthy and organic feeling as well."
+    },
+    {
+      "id": 3,
+      "year": 2022,
+      "title": "NewsRoom",
+      "presentaion": "During our UI/UX course, we were commissioned to create an editorial web page on the subject that matters to us, the project served to introduce us to the use of design systems and components to create a complex and more scalable web applications.",
+      "tech": [
+        {
+          "ux": "Sketch / Figma / Photoshop / Illustrator / InDesign",
+          "frontend": ""
+        }
+      ],
+      "inspiration": "I choose to work on a hip hop news website, I design everything from scratch taking inspiration left and right coming on to this. Dark and green colors, inpires confidence and mystery just like hip hop does.",
+      "concept": [
+        {
+          "text": ""
+        }
+      ]
+    }
+] 

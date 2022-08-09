@@ -93,9 +93,6 @@
 }
 
 @media (max-width: 820px) {
-    body {
-         background-color: red;
-    }
     .card-animation {
         position: absolute;
         display: flex;

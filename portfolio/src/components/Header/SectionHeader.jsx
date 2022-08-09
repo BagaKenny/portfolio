@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Link } from 'react-router-dom';
 
 // GSAP
@@ -8,9 +8,18 @@ import { gsap } from "gsap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
+// Style
 import "./sectionhead.css";
 
 const SectionHeader = () => {
+
+  const [showLinks, setShowLinks] = useState(false)
+
+  const handleShowLinks = () =>{
+    setShowLinks(!showLinks)
+    console.log(handleShowLinks)
+  }
+
   let tl = new gsap.timeline();
   let sub_header = useRef(null);
   let q = gsap.utils.selector(sub_header);
@@ -25,12 +34,19 @@ const SectionHeader = () => {
     });
   }, []);
 
+  console.log(showLinks)
+  
   return (
     <div>
-      <header className="header" ref={sub_header}>
+    <header className={`nav ${showLinks ? 'show-nav' : 'hide-nav'}`}>
+    <div className="logo"><Link to='/' className='link-style ' > BAGA KENNY JUNIOR </Link></div>
+      <button onClick={handleShowLinks} className="nav-bar-burger">
+          <span className="burger-bar"></span>
+        </button>
+      <nav className={`header ${showLinks ? 'show-nav' : 'hide-nav'}`} ref={sub_header} >
         <div className="sub-header sub-header-1">
           <div><Link to='/' className='link-style' > BAGA KENNY JUNIOR </Link></div>
-          <div>
+          <div className="links-direction">
             <span className="media-link-style">
               <a
                 href="https://github.com/BagaKenny"
@@ -64,14 +80,14 @@ const SectionHeader = () => {
         </div>
         <div className="sub-header sub-header-2">
           <div>WEB DESIGNER</div>
-          <div>
+          <div className="links-direction">
             <span className="media-link-style">
               <a
-                href="https://www.linkedin.com/in/kenny-junior-baga-52856219a/"
+                href="mailto: kennybagajunior@gmail.com"
                 rel="noreferrer"
                 target="_blank"
               >
-                <FontAwesomeIcon icon={faArrowRight} /> LINKEDIN
+                <FontAwesomeIcon icon={faArrowRight} /> kennybagajunior@gmail.com
               </a>
             </span>
           </div>
@@ -90,7 +106,8 @@ const SectionHeader = () => {
           </div>
           <div></div>
         </div>
-        
+      
+      </nav>
       </header>
     </div>
   );

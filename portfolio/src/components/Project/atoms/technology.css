@@ -1,0 +1,13 @@
+.technology-container {
+    font-family: 'Geomanist';
+    text-transform: uppercase;
+}
+
+.technology-container h2 {
+    font-size: var(--f-size-sm);
+}
+
+.technology-container div{
+    font-size: var(--f-size-s);
+    margin-top: 2rem;
+}

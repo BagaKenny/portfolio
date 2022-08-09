@@ -34,9 +34,6 @@
 /* Media Queries */
 
 @media (max-width: 480px) {
-    body {
-        /* background-color: red; */
-    }
     .footer-container {
         position: relative;
         display: flex;
