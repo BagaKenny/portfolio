@@ -1,16 +1,12 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
   Routes,
   Link,
+  useLocation
 } from "react-router-dom";
 
-import { gsap } from "gsap";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 // Style
 // Pages
@@ -31,6 +27,9 @@ const route = [
 ];
 
 function App() {
+
+  const location = useLocation();
+  
   return (
     <div>
       <Router>

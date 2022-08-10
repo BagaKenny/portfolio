@@ -19,7 +19,7 @@ const About = () => {
     <div className="about">
     <ImgMedium url={ImgAbout} />
     <p className="about-me-text">
-    I am a 22-year-old Web Designer living in Switzerland. Graduated in Interactive Media Design, with an interest in design and programming. <br />
+   <b>I am a 22-year-old Web Designer living in Switzerland.</b> Graduated in <i>Interactive Media Design</i>, with an interest in design and programming.  <br />
     My goal is to participate in innovative projects and facilitate the lives of different human beings through design and technology..
     </p>
     </div>
