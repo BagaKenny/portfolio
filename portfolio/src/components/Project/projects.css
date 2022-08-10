@@ -67,6 +67,26 @@
     margin-left: -25rem;
 }
 
+
+.mockup-container.theme {
+    background-color: black;
+    width: 100vw;
+    height:fit-content;
+    padding: 0;
+}
+
+.mockup-container.theme img {
+    object-fit: cover;
+    background-color: white;
+    margin: 40px;
+    
+}
+
+
+.mockup-container-buy .centering{
+    object-fit: cover;
+    object-position: center;
+}
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
@@ -120,6 +140,9 @@ and (max-device-width : 480px) {
 
 .video-container video {
     display: none;
+}
+.video-container .flex video {
+    display: flex;
 }
 
 .video-container img {

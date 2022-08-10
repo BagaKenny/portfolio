@@ -3,7 +3,7 @@
    "year": "2022",
    "title": "Xplore App",
    "presentaion":
-       "During my end of year project, we were mandated to think and create an editorial support with the theme of 'Hors-Champ' Outer Sight, How to visualize phenomena which we know exist, but which remain imperceptible until now: Black holes, Dark matter, gravitational wave, Oort cloud, Exoplanets, Planck's wall, primitive radiation? Our eyes do not give us all the information, they are limited and highly dependent on light. But what if we want to understand the activity of sounds, surprising phenomena that we cannot see but exist?This was the basis of my design thinking through this project",
+       "During my end of year project, we were mandated to think and create an editorial support with the theme of 'Hors-Champ' Outer Sight",
    "tech": {
        "ux": "Sketch / InVision / Photoshop / Illustrator / InDesign",
        "frontend": ""
@@ -13,8 +13,8 @@
        "text": "This is a guide to the basic elements that make up Xplore. What can't our eyes see? It was our GO-TO when thinking this app.",
   
        "hookText":"On Xplore, my main goal was to modernize the way we discovering things and sharing our passion with people who love what we love. Achieving this goal is highly dependent on the ability to communicate the brand identity with consistency, accuracy, confidence and purpose.",
-       "hookText2": "The goal was to have this well-constructed layout, with improved typography, lines and spacing",
-       "hookText3": "A big emphasis was put on the negative space knowing that it is an editorial application, the readability was a crucial part of my build"
+       "hookText2": "In 93% of the user interviews, people say using auditive or visual media for education and 63% others said being bored reading science",
+       "hookText3": "With the articles pages as the main touch points, I set up the app's architecture based on the two main use-cases: 'I want to find an article about a specific subject, and share my thoughts' or 'I use primarly youtube or podcast for education.'"
      }
     },
   

@@ -53,6 +53,15 @@
   width: 50vw;
   word-spacing: 2px;
 }
+.text-header-h1.white{
+  color: white;
+  font-family: "Geomanist Bold";
+  font-size: 150px;
+}
+.mockup-container.sketch img{
+    object-fit: cover;
+}
+
 
 .text-header-h1-span {
   display: block;
