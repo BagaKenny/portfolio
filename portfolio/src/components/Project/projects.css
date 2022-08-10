@@ -83,9 +83,16 @@
 }
 
 
-.mockup-container-buy .centering{
+.mockup-container-buy.space{
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.mockup-container-buy.space img{
     object-fit: cover;
     object-position: center;
+    width: 100%;
 }
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 

@@ -16,20 +16,17 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 // Pages
 import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
-import Portfolio from "./pages/Portfolio";
 
 // Component
 
 import SectionHeader from "./components/Header/SectionHeader";
 import HomeMadeBySophie from "./pages/HomeMadeBySophie";
-import NewsRoom from "./pages/NewsRoom";
 import Xplore from './pages/Xplore'
 
 const route = [
   { path: "/", name: "Home", Component: Home },
   { path: "/HomeMadeBySophie", name: "HomeMadeBySophie", Component: HomeMadeBySophie },
   { path: "/AboutPage", name: "About", Component: AboutPage },
-  { path: "/NewsRoom", name: "NewsRoom", Component: NewsRoom },
   { path: "/Xplore", name: "Xplore", Component: Xplore }
 ];
 

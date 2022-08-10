@@ -91,26 +91,26 @@
     font-weight: bold;
   }
   .item-1{
-    margin-left: 15%;
+    margin-left: 10%;
   }
   .item-2,
   .item-7 {
     margin-left: 10%;
   }
   .item-3 {
-    margin-left: 5%;
+    margin-left: 10%;
   }
   .item-6 {
-    margin-left: 40%;
+    margin-left: 10%;
   }
   .item-4{
-    margin-left: 50%;
+    margin-left: 10%;
   }
   .item-5 {
-    margin-left: 5%;
+    margin-left: 10%;
   }
   .item-8 {
-    margin-left: 50%;
+    margin-left: 10%;
   }
 
   @media (max-width: 480px) {

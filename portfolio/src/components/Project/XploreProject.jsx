@@ -71,7 +71,7 @@ const XploreProject = () => {
       <div className="mockup-container theme">
         <ImgMedium url={Theme} />
       </div>
-      <div className="mockup-container-buy">
+      <div className="mockup-container-buy space">
       <TextContext firstText='The next big challenge was figuring out the most meaningful logic to organize future hundreds of themes available for each article, which I have achieve through hashtags and buttons' />
         <ImgLarge url={SaleMockup} />
       </div>

@@ -2,10 +2,7 @@ import React, {useRef, useEffect} from 'react';
 import { gsap, Power2 } from "gsap";
 import { Link } from 'react-router-dom';
 import './section.css';
-import SectionHeader from '../Header/SectionHeader';
 
-// Images
-import Image from '../../assets/holo.gif';
 
 const Section = () => {
 
@@ -49,9 +46,9 @@ const Section = () => {
         <Link to='/HomeMadeBySophie'>
           <div className="work-item item-1">
             <h1>HomeMade</h1>
-            <span><img src={require('../../assets/Portfolio/portfolio.webp')} alt="" /></span>
+            <span><img src={require('../../assets/hmbs/wrinkled .webp')} alt="" /></span>
             <h1>By </h1>
-            <span><img src={require('../../assets/Portfolio/homepage.gif')} alt="" /></span>
+            <span><img src={require('../../assets/hmbs/poster.webp')} alt="" /></span>
             <h1>Sophie</h1>
             <p>2022</p>
           </div>
@@ -59,29 +56,18 @@ const Section = () => {
         </span>
         <div className="line" ></div>
         <span>
-        
-        <div className="work-item item-3">
-            <h1>Jordan</h1>
-            <span><img src={require('../../assets/Jordan/jordan.webp')} alt="" /></span>
-            <h1>Shoes</h1>
-            <span><img src={require('../../assets/Jordan/jordan1.webp')} alt="" /></span>
-            <h1>(UI/UX)</h1>
-            <p>2021</p>
+        <Link to="/Xplore">
+        <div className="work-item item-6">
+            <h1>Xplore App</h1>
+            <span><img src={require('../../assets/Xplore/xplore/laptop.webp')} alt="" /></span>
+            <h1>UI/UX</h1>
+            <span><img src={require('../../assets/Xplore/xplore/longscroll-nobg.webp')} alt="" /></span>
+            <p>2022</p>
           </div>
-          
+        </Link>
         </span>
-        <div className="line"></div>
-        <span>
-        <div className="work-item item-2">
-            <h1>News</h1>
-            <span><img src={Image} alt="" /></span>
-            <h1>Room</h1>
-            <span><img src="/4.jpg" alt="" /></span>
-            <h1>(UI/UX)</h1>
-            <p>2021</p>
-          </div>
-        </span>
-        <div className="line"></div>
+       
+        <div className="line" ref={line}></div>
         <span>
         <a href='https://bagakenny.github.io/homeplanet/' rel='noreferrer' target="_blank">
           <div className="work-item item-4">
@@ -107,19 +93,6 @@ const Section = () => {
           </a>
         </span>
         <div className="line"></div>
-        
-        <span>
-        <Link to="/Xplore">
-        <div className="work-item item-6">
-            <h1>Xplore App</h1>
-            <span><img src={require('../../assets/Xplore/Homepage.webp')} alt="" /></span>
-            <h1>UI/UX</h1>
-            <p>2022</p>
-          </div>
-        </Link>
-        </span>
-       
-        <div className="line" ref={line}></div>
         <span>
         <a href='https://bagakenny.github.io/pomodoro/' rel='noreferrer' target="_blank">
           <div className="work-item item-7">
@@ -136,9 +109,9 @@ const Section = () => {
         <span>
         <a href='https://bagakenny.github.io/mydashboard/' rel='noreferrer' target="_blank">
         <div className="work-item item-8" ef={work_item_h1}>
-            <h1>HomePlanet</h1>
+            <h1>E-Commerce</h1>
             <span><img src={require('../../assets/DashBoard/Dash.png')} alt="" /></span>
-            <h1>(FrontEnd)</h1>
+            <h1>Website</h1>
             <p>2022</p>
           </div>
           </a>

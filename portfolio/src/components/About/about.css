@@ -1,158 +1,44 @@
 
-.card-animation {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100%;
-    flex-direction: column;
-    font-family: 'Boska-Black';
+
+.about {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
 }
 
-.card-animation .img {
-    width: 450px;
-    height: 600px;
-    background: url(/src/components/About/portrait.webp) center center no-repeat;
-    background-size: cover;
-}
+.about img{
+ object-fit: contain;
+ object-position: center;
+  }
 
-.card-animation .card-header {
-    font-size: var(--f-size-l);
-    margin: 5px 0;
-    color: var(--black);
-}
+  .about-me-text{
+    font-family: 'Geomanist';
+    font-size: var(--f-size-sl);
+    margin: 50px;
+  }
 
-.card-animation .card-text-below {
-    font-size: var(--f-size-s);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.card-animation .card-side {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    margin-left: 60rem;
-    justify-content: center;
-    flex-direction: column;
-    color: var(--accent);
-}
 
-.card-side h2 {
-    text-transform: uppercase;
-    font-size: var(--f-size-l);
-    font-weight: 400;
-}
-
-.card-side .card-on {
-    width: 12rem;
-    cursor: pointer;
-    margin: 20px 0;
-    position: relative;
-    height: 12rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid var(--black);
-    color: var(--accent);
-    font-size: var(--f-size-l);
-    font-weight: 900;
-    border-radius: 100%;
-    background: transparent;
-}
-
-.card-on .card-plus {
-    position: absolute;
-}
-
-.card-animation .card-side-text {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    margin-left: 15vw;
-    color: var(--black);
-    font-family: 'Roboto', sans-serif;
-    font-size: var(--f-size-sm);
-    font-weight: lighter;
-    line-height: var(--l-size);
-}
-
-.card-paragraph {
-    width: 60%;
-    
-}
-
-.full-page-layout {
-    position: absolute;
-    padding-bottom: 8rem;
-    width: 55vw;
-    left: -60vw;
-    display: block;
-}
 
 @media (max-width: 820px) {
-    .card-animation {
-        position: absolute;
+    .about {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        width: 100%;
         flex-direction: column;
-        font-family: 'Boska-Black';
-    }
-    
-    .card-animation .img {
-        width: 50vw;
-        height: 50%;
-        background: url(/src/components/About/portrait.webp) center center no-repeat;
-        background-size: cover;
-    }
-    
-    .card-animation .card-header {
-        font-size: var(--f-size-m);
-        margin: 5px 0;
-        color: var(--black);
-    }
-    
-    .card-animation .card-side {
-        position: absolute;
-        display: flex;
         align-items: center;
-        margin-left: 60vw;
-        justify-content: center;
-        flex-direction: column;
-        color: var(--accent);
-    }
-    
-    .card-side h2 {
-        font-size: var(--f-size-m);
-    }
-    
-    .card-side .card-on {
-        border: 2px solid var(--black);
-        color: var(--accent);
-    }
-    
-    .card-animation .card-side-text {
-        top: 80%;
-        left: 0;
-        margin-left: 2vw;
-    }
-    
-    .card-paragraph {
-        width: 100%;
-    }
-    
-    .full-page-layout {
-        margin-top: 20rem;
-        width: 100%;
-        left: 0;
-        display: block;
-    }
-  
+        min-height: 100vh;
+      }
+      
+      .about img{
+       object-fit: contain;
+       object-position:inherit;
+       width: 100%;
+        }
+      
+        .about-me-text{
+          font-family: 'Geomanist';
+          font-size: var(--f-size-sl);
+          margin: 50px;
+        }
 }
 
 /* Media Query for Tablets Ipads portrait mode 
